@@ -9,6 +9,7 @@ function pass2() {
 		document.getElementById("p2").style.display = "none";
 		document.getElementById("p1").style.display = "block";
 		document.title = "Enter Password 2";
+		in1.select();
 	}
 	else{
 		document.getElementById("container").style.display = "none";
